@@ -7,9 +7,9 @@ This page contains a preview of all my projects, click the name of the project t
 
 ### My game developer history
 
-I always wanted to work in game development, so as soon as I could I started studying at a vocational school for 3D animation and modelling. I really enjoed the technical aspects of the 3D tools, Maya, Zbrush etc. But I didn't find success with my art.
+I always wanted to work in game development, so as soon as I could I started studying at a vocational school for 3D animation and modelling. I really enjoyed the technical aspects of the 3D tools, Maya, Zbrush and more.
 
-After I finished this school I ended up in a totally different business after that, welding automation, here I started learning how to program industrial robots. Programming for the first time I realized I had a knack and love of programming, so I started to think of ways I could get into game development as a programmer.
+After I finishing this education I ended up working in a different industry, welding automation, here I started learning how to program industrial robots. Programming for the first time I realized I had a knack and love of programming, so I started to dream about game development again, this time as a programmer.
 
 In 2019 I started studying game programming on my spare time, first Unity, then Unreal Engine. Working with teams and collaborators online I learned both engines and got fluent in C# and competent at C++. In fall of 2024 I started Yrgo's Game Programmer education which I currently attend. 
 
