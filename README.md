@@ -17,11 +17,29 @@ In 2019 I started studying game programming on my spare time, first Unity, then 
 
 # Games developed at Yrgo
 
+## [***Campanion***]() ← More to come, soon on Itch.io!
+
+Developed: *2025 April - 2025 June*  
+Engine: Unreal Engine 5\
+Genré: 3D Puzzle Adventure, Single player\
+Team: 2 Programmers, 3 Artists and 1 Assisting Programmer
+
+<table>
+  <tr>
+    <td width="50%"><img src="Images\Campanion1.gif" /></td>
+    <td width="50%"><img src="Images\Campanion4.gif" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="Images\Campanion5.gif" /></td>
+    <td width="50%"><img src="Images\Campanion6.gif" /></td>
+  </tr>
+</table>
+
 ## [***Scale World***](ScaleWorld#mr-Scale-World) ← Click here for more info!
 
 Developed: *2025 March - 2025 April*  
 Engine: Unreal Engine 5\
-Genré: 2D Puzzle Platform, Single player\
+Genré: 3D Puzzle Platform, Single player\
 Team: Solo
 
 <table>
@@ -40,7 +58,7 @@ Team: Solo
 
 Developed: *2025 January - 2025 February*  
 Engine: Unity  
-Genré: 2D Puzzle Platform, Single player\
+Genré: Idle Space Mining Sim, Indirect multiplayer\
 Team: Solo
 
 <table>
