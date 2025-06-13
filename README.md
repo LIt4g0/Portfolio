@@ -17,7 +17,7 @@ In 2019 I started studying game programming on my spare time, first Unity, then 
 
 # Games developed at Yrgo
 
-## [***Campanion***]() ← More to come, soon on Itch.io!
+## [***Campanion***]() ← In development, soon on Itch.io!
 
 Developed: *2025 April - 2025 June*  
 Engine: Unreal Engine 5\
