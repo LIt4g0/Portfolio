@@ -43,7 +43,7 @@ This was a project me and a friend started working on late 2020. It was my first
 <summary>Code Example:</summary>
 Here is a method that returns true or false if the move that is being checked will put your own king in check.
 
-What I do here is simulate the movement of all your pieces, and for each movement I also simulate if this move will enable any of the opponents pieces to attack the kings tile when it's their turn. If so I remove that move from the array of possible moves. (Gif of trying to move piece that defends king).
+What I do here is simulate the movement of all your pieces, and for each movement I also simulate if this move will enable any of the opponents pieces to attack the kings tile when it's their turn. If so I remove that move from the array of possible moves.
 
 ```
 bool AChessBoard::IsSelfCheckMove(AChessPiece* SimChessPiece, AChessTile* OriginTile, AChessTile* SimTargetTile)

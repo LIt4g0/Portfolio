@@ -1,5 +1,7 @@
 # Jørgen Tandberg Portfolio
 
+## [***Code Samples***](JustCode#mr-JustCode) ← Click here if you just want to see some code!
+
 This page contains a preview of all my projects, click the name of the project to see my contributions!
 
 <details>
@@ -17,7 +19,7 @@ In 2019 I started studying game programming on my spare time, first Unity, then 
 
 # Games developed at Yrgo
 
-## [***Campanion***](https://yrgo-game-creator.itch.io/campanion) ← Play on Itch.io!
+## [***Campanion***](Campanion#mr-Campanion) ← Click here for more info!
 
 Developed: *2025 April - 2025 June*  
 Engine: Unreal Engine 5\
