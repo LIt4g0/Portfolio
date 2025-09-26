@@ -144,5 +144,37 @@ bool AChessBoard::IsSelfCheckMove(AChessPiece* SimChessPiece, AChessTile* Origin
 </details>
 
 
+## Checkpoint system:
+<td width="35%"><img src="Images\SaveOverview.png"/></td>
+
+Language: Blueprint\
+Engine: Unreal Engine\
+Project: [***Project: New Light City***](/ScaleWorld#mr-Scale-World)
+
+Since the game is quite rage inducing when you die I decided to implement a checkpoint system. It was later expanded upon to enable quick saves and reloads as well. The checkpoints are placed at specific points in the game and will ensure you will restart at the beginning of the current puzzle with every object reset to the position and state they were in at that time. It could still be improved upon, but as blueprints go I'm pretty satisfied with the functionality and readability.
+
+<details>
+<summary>Assign and save prep</summary>
+
+<td width="35%"><img src="Images\AssignAndSaveprep.png"/></td>
+</details>
+
+<details>
+<summary>Save all:</summary>
+
+<td width="35%"><img src="Images\SaveAll.png"/></td>
+</details>
+
+<details>
+<summary>Load prep:</summary>
+
+<td width="35%"><img src="Images\ReloadPrep.png"/></td>
+</details>
+
+<details>
+<summary>Load all:</summary>
+
+<td width="35%"><img src="Images\LoadAll.png"/></td>
+</details>
 
 ## More to come!
