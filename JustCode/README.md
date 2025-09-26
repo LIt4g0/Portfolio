@@ -5,9 +5,11 @@ Most code samples here will refer to game projects, but some are separate sample
 ## Upgrade cost system:
 <td width="35%"><img src="Images\IdleMinerProgression.png"/></td>
 
-For an idle incremental game I needed to create an efficient way of tweaking the upgrade costs, so I developed this upgrade cost system. It requires a minimum of one specified upgrade bracket, you define the base costs and the "power of" which will be multiplied by the ability's current level. This works pretty well by itself, if necessary you can tune the cost by adding more level brackets. The brackets are stored in a scriptable object for independent adjustments from the corresponding ability. The scriptable objects can then be assigned to the desired ability's upgrade bracket reference field. All the abilities inherit from a base class which implements the method to calculate the ore cost. When an ability reaches a brackets end level it will look for the next one in the scriptable object. If it does not exists it will continue to use the last one in the list indefinetily, enabling infinite levels with the possibility of manual cost balancing.
+Language: C#\
+Engine: Unity\
+Project: [***Idle Miner***](/IdleMiner#mr-Idle-Miner)
 
-Read more about the related project here: [***Idle Miner***](/IdleMiner#mr-Idle-Miner)
+For an idle incremental game I needed to create an efficient way of tweaking the upgrade costs, so I developed this upgrade cost system. It requires a minimum of one specified upgrade bracket, you define the base costs and the "power of" which will be multiplied by the ability's current level. This works pretty well by itself, if necessary you can tune the cost by adding more level brackets. The brackets are stored in a scriptable object for independent adjustments from the corresponding ability. The scriptable objects can then be assigned to the desired ability's upgrade bracket reference field. All the abilities inherit from a base class which implements the method to calculate the ore cost. When an ability reaches a brackets end level it will look for the next one in the scriptable object. If it does not exists it will continue to use the last one in the list indefinetily, enabling infinite levels with the possibility of manual cost balancing.
 
 <details>
 <summary>Scriptable object:</summary>
@@ -75,11 +77,14 @@ public float CalculateOreCost(int targetLevel, CostBracketScriptableObject costB
 ## Check mate solution:
 <br/>
 <td width="50%"><img src="Images\ProjectNLC6.gif" /></td>
+
+Language: C++\
+Engine: Unreal Engine\
+Project: [***Project: New Light City***](/ProjectNewLightCity#mr-ProjectNewLightCity)
+
 Here is a method that returns true or false if the move that is being checked will put your own king in check.
 
 What I do here is simulate the movement of all your pieces, and for each movement I also simulate if this move will enable any of the opponents pieces to attack the kings tile when it's their turn. If so I remove that move from the array of possible moves.
-
-Read more about the related project here: [***Project: New Light City***](/ProjectNewLightCity#mr-ProjectNewLightCity)
 
 <details>
 <summary>Code:</summary>
